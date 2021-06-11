@@ -1,0 +1,100 @@
+/*Header*/
+
+.header_container {
+    border-bottom-left-radius: 50px; 
+    border-bottom-right-radius: 50px; 
+}
+
+.searchbox {
+    border-radius: 60px;
+    border: none;
+}
+
+nav ul a.active, a:hover{
+    transition: .5s;
+}
+
+.checkbtn{
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+/*Footer*/
+
+.footer_container {
+    border-top-left-radius: 50px; 
+    border-top-right-radius: 50px; 
+}
+
+/*Homepage*/
+
+.sidebar_top {
+    border-radius: 80px;
+}
+
+.sidebar_mid {
+    border-radius: 40px;
+}
+
+.sidebar_bot {
+    border-radius: 40px;
+}
+
+.addcart_button {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 30px;
+}
+
+/*Product*/
+
+.cart_button {
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 80px;
+}
+
+/*Cart*/
+
+.product_object1 {
+    border-radius: 20px;
+}
+
+#object1_img {
+    border-radius: 20px;
+}
+
+.quantity_object1 {
+    border-radius: 30px;
+}
+
+#object2_img {
+    border-radius: 20px;
+}
+
+.quantity_object2 {
+    border-radius: 30px;
+}
+
+.checkout_button {
+    border-radius: 80px;
+}
+
+/*Shipping*/
+
+.field_box {
+    border-radius: 60px;
+}
+
+.continue_button {
+    border-radius: 80px;
+}
+
+.confirm_button {
+    border-radius: 80px;
+}

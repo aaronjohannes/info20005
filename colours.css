@@ -1,0 +1,164 @@
+/*Header*/
+
+.header_container {
+    background: #1C2F56;
+}
+
+.searchbox {
+    background: #F0F0F0;
+    color: #707070;
+}
+
+nav{
+    background: #1C2F56;
+}
+
+*{
+    color: #FFFFFF;
+}
+
+nav ul a.active, a:hover{
+    background: #707070;
+}
+
+.checkbtn{
+    color: white;
+}
+
+/*Footer*/
+
+.footer_container {
+    background: #1C2F56;
+}
+
+/*Homepage*/
+
+.sidebar_top {
+    background: #1C2F56;
+}
+
+#cart_amnt {
+    color: white;
+}
+
+.sidebar_mid {
+    background: #1C2F56;
+}
+
+.sidebar_bot {
+    background: #1C2F56;
+}
+
+.productobject_item {
+    background: #F0F0F0;
+}
+
+.productimage_box {
+    background: white;
+}
+
+.addcart_button {
+    background: white;
+    border-color: #707070;
+}
+
+/*Product*/
+
+h1{
+    color: #000000;
+}
+
+td{
+    color: #000000;
+}
+
+.cart_button {
+    background: #ffffff;
+    border-color: black;
+}
+
+/*Cart*/
+
+.product_object1 {
+    background: #F0F0F0
+}
+
+#object1_img {
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.15);
+}
+
+.quantity_object1 {
+    background: #707070;
+}
+
+.product_object2 {
+    background: #F0F0F0;
+}
+
+#object2_img {
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.15);
+}
+
+.quantity_object2 {
+    background: #707070;
+}
+
+.checkout_button {
+    background: #707070;
+}
+
+/*Shipping*/
+
+.field_box {
+    color: #707070;
+    background: #F0F0F0;
+}
+
+.continue_button {
+    background: #707070;
+}
+
+.confirm_button {
+    background: #1C2F56;
+}
+
+@media (max-width: 1350px) {
+
+    /*Header*/
+    
+    .header_container {
+        background: #1C2F56;
+    }
+
+    .searchbox {
+        background: #F0F0F0;
+        color: #707070;
+    }
+
+    nav ul{
+        background: #1C2F56;
+    }
+
+    nav ul a:hover, a.active{
+        background: none;
+        color: #707070;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .header_container {
+        background: #1C2F56;
+    }
+
+    .searchbox {
+        background: #F0F0F0;
+        color: #707070;
+    }
+
+    a:hover, a.active{
+        background: none;
+        color: #707070;
+    }
+
+}
